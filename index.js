@@ -43,16 +43,16 @@
 // C помощью filter и map
 // C помощью reduce
 
-// const names =  [ { name: 'Harry Potter', house: 'Gryfindor' }, { name: 'Cedric Diggory', house: 'Hufflepuff' }, 
-// { name: 'Tonks', house: 'Hufflepuff' }, { name: 'Ronald Weasley', house: 'Gryfindor' }, 
-// { name: 'Hermione Granger', house: 'Gryfindor' }]; 
-// const HufflepuffNames = names.map(function(nam) {
-//     return nam.house ==='Hufflepuff';
-// } );
-//  console.log(names)
-// const huffl = names.filter(function(names){
-//     return names.house === 'Hufflepuff';
-// }); console.log(names);
+const names =  [ { name: 'Harry Potter', house: 'Gryfindor' }, { name: 'Cedric Diggory', house: 'Hufflepuff' }, 
+{ name: 'Tonks', house: 'Hufflepuff' }, { name: 'Ronald Weasley', house: 'Gryfindor' }, 
+{ name: 'Hermione Granger', house: 'Gryfindor' }]; 
+const huffl = names.filter(function(names){
+    return names.house === 'Hufflepuff';
+}); console.log(huffl);
+const HufflepuffNames = names.map(function(nam) {
+    return nam.house ==='Hufflepuff';
+} );
+
 
 // const result = arr.reduce((acc,n) => {
 //     if (n.house === 'Hufflepuff') { 
